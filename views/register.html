@@ -64,81 +64,81 @@
   <br />
   <body>
     <main>
-      <section class="ultima-visita">
-        <h4 class="heading">Basado en tu ultima visita</h4>
-        <article>
-          <img
-            src="../images/img-cafetera-moulinex.jpg"
-            alt="imagen de cafetera moulinex"
-          />
-          <p class="price">$6770</p>
-          <span class="discount">40% off</span>
-          <h4 class="description">Cafetera Moulinex</h4>
-        </article>
+        <div class="contenedor">
+          <h2>Registrate</h2>
+          <form action="">
 
-        <article>
-          <img
-            src="../images/img-macbook-pro-2019.jpg"
-            alt="imagen de macbook pro 2019"
-          />
-          <p class="price">$230.000</p>
-          <span class="discount">20% off</span>
-          <h4 class="description">MackBook Pro 2019</h4>
-        </article>
+            <div>
+              <div class="container-input">
+                <input class="text" type="text" placeholder="Nombre y Apellido" name="fullName">
+            </div>
 
-        <article>
-          <img src="../images/img-samsung-galaxy-s10.jpg" alt="" />
-          <p class="price">$70.500</p>
-          <span class="discount">10% off</span>
-          <h4 class="description">Samsung Galaxy S10</h4>
-        </article>
+            <div class="container-input">
+                <input class="text" type="text" placeholder="Nombre de usuario" name="userName">
+            </div>
 
-        <article>
-          <img src="../images/img-tv-samsung-smart.jpg" alt="" />
-          <p class="price">$23.200</p>
-          <span class="discount">5% off</span>
-          <h4 class="description">SmartTv Samsung 43"</h4>
-        </article>
-      </section>
-      <br />
+            <div class="container-input">
+              <input class="text" type="email" placeholder="email" name="email">
+          </div>
+            </div>
 
-      <section class="ofertas">
-        <h4 class="heading">Ofertas</h4>
-        <article>
-          <img
-            src="../images/img-cafetera-moulinex.jpg"
-            alt="imagen de cafetera moulinex"
-          />
-          <p class="price">$6770</p>
-          <span class="discount">40% off</span>
-          <h4 class="description">Cafetera Moulinex</h4>
-        </article>
+            <h3>Fecha de nacimiento</h3>
+            <div class="container-input">
+                <input class="text" type="date" name="date">
+            </div>
 
-        <article>
-          <img
-            src="../images/img-macbook-pro-2019.jpg"
-            alt="imagen de macbook pro 2019"
-          />
-          <p class="price">$230.000</p>
-          <span class="discount">20% off</span>
-          <h4 class="description">MackBook Pro 2019</h4>
-        </article>
+            <div class="container-input">
+                <input class="text" type="text" placeholder="Domicilio" name="domicilio">
+            </div>
 
-        <article>
-          <img src="../images/img-samsung-galaxy-s10.jpg" alt="" />
-          <p class="price">$70.500</p>
-          <span class="discount">10% off</span>
-          <h4 class="description">Samsung Galaxy S10</h4>
-        </article>
+            <h3>Perfil de usuario</h3>
+            <div class="container-input">
+                <input class="radio" type="radio" name="perfil" value="comprador" id="comprador"> <label for="comprador">Comprador</label>
+                <input class="radio" type="radio" name="perfil" value="vendedor" id="vendedor"> <label for="vendedor">Vendedor</label>
+            </div>
 
-        <article>
-          <img src="../images/img-tv-samsung-smart.jpg" alt="" />
-          <p class="price">$23.200</p>
-          <span class="discount">5% off</span>
-          <h4 class="description">SmartTv Samsung 43"</h4>
-        </article>
-      </section>
-      <br />
+            <h3>Intereses</h3>
+            <div class="container-input">
+                <input class="check" type="checkbox" name="intereses" value="electro" id="electro"> <label for="electro">Electro</label>                
+            </div>
+
+            <div class="container-input">
+              <input class="check" type="checkbox" name="moda" value="moda" id="moda"> <label for="moda">Moda</label>                
+          </div>
+
+          <div class="container-input">
+            <input class="check" type="checkbox" name="hogar" value="hogar" id="hogar"> <label for="hogar">Hogar</label>                
+        </div>
+
+          <div class="container-input">
+            <input class="check" type="checkbox" name="jugueteria" value="jugueteria" id="jugueteria"> <label for="jugueteria">Jugueteria</label>                
+        </div>
+
+        <div class="container-input">
+          <input class="check" type="checkbox" name="vida-sana" value="vida-sana" id="vida-sana"> <label for="vida-sana">Vida Sana</label>                
+         </div>
+      
+         <h3>Foto de perfil</h3>
+        <div class="container-input">
+        <input class="subirArchivo" type="file" name="img">                
+        </div>
+
+        <div class="container-input">
+          <input class="text" type="password" name="pass" placeholder="Contraseña" minlength="8">
+        </div>
+
+        <div class="container-input">
+          <input class="text" type="password" name="repeat-pass" placeholder="Repetir contraseña" minlength="8">
+        </div>
+
+        <div class="containerButtons">
+          <button class="btn-verde" type="submit">Registrarse</button>
+          <button class="btn-rojo" type="reset">Resetear</button>
+        </div>
+
+        </form>
+
+        </div>      
     </main>
 
     <footer>
