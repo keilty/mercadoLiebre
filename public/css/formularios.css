@@ -1,0 +1,45 @@
+.contenedor h2{
+    text-align: center;
+    color: black;
+}
+
+.register-login .contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.register-login .contenedor .container-input{
+    display: flex;
+    margin: 20px 0;
+}
+
+.register-login .contenedor .container-input input.text{
+    width: 100%;
+    
+}
+
+.register-login .contenedor .container-input input.radio{
+    margin: 0 20px;
+}
+
+.register-login .contenedor .container-input input.check{
+    margin: 0 20px;
+}
+
+.register-login .contenedor .container-input .subirArchivo {    
+    background-color: #b6c2e9;    
+    border-radius: 5px;
+}
+
+/* Botones */
+
+.register-login .contenedor .containerButtons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.register-login .contenedor .containerButtons button {
+    color: #fff;
+}

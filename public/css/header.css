@@ -1,0 +1,123 @@
+header {
+    background-color: var(--colorAmarillo);
+  }
+  
+  header .headerTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  header .logo {
+    width: 50%;
+  }
+  
+  header .headerTop .barra {
+    border-radius: 5px;
+    color: var(--colorGrisOscuro);
+    font-size: 14px;
+    width: 48%;
+  }
+  
+  header .barra input {
+    width: 80%;
+    padding: 10px 0 10px 0;
+  }
+  
+  header .barra button {
+    padding: 10px 0 10px 0;
+  }
+  
+  header p {
+    font-size: 12px;
+    padding-top: 15px;
+    color: black;
+    margin: auto;
+  }
+  
+  header li {
+    font-size: 12px;
+    display: none;
+  }
+  
+  header li a {
+    color: black;
+  }
+  
+  header .burger-menu {
+    background-color: var(--colorCeleste);
+    color: var(--colorGrisClaro);
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin: 0px 43% 20px;
+  }
+  
+  @media (min-width: 768px) {
+    header li {
+      font-size: 12px;
+      display: block;
+    }
+  
+    header .burger-menu {
+      display: none;
+    }
+    header li {
+      margin-left: 10px;
+    }
+  
+    header .headerTop {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+    }
+  
+    header .logo {
+      width: 40%;
+    }
+  
+    header .barra{
+      width: 25%;
+    }
+  
+    header p{
+      width: 45%;
+      text-align: center;
+    }
+  
+    header .logo {
+      margin-right: 30px;
+    }
+  
+    header .barra input,
+    header .barra button {
+      padding: 10px;
+    }
+  
+    header nav {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    header nav ul {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 20px;
+    }
+  
+    header nav ul li {
+      margin: 20px 10px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    header .barra input {
+      margin-left: 30px;
+    }
+  }

@@ -1,0 +1,53 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --colorAmarillo: #eac926;
+    --colorAzul: #03264c;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--colorGrisClaro);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 15px 0 15px 0;
+    color: var(--colorGrisOscuro);
+  }
+  
+  h4 {
+    color: var(--colorGrisOscuro);
+    font-size: 16px;
+    display: none;
+  }
+  p {
+    font-size: 12px;
+  }
+  
+  input,
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  button:hover {
+    cursor: pointer;
+  }

@@ -1,0 +1,43 @@
+footer{
+    text-align: center;
+    color: var(--colorGrisOscuro);
+    background-color: #fff;
+}
+
+footer i{
+    font-size: 2em;
+    color: var(--colorCeleste);
+    margin-bottom: 10px;
+    margin-top: 50px;
+    transition: color ease .3s;
+}
+
+footer i:hover{
+    color: #0e408a;
+}
+
+footer p{
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+footer .copyright{
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+@media(min-width: 1024px){
+    footer .contenedorFooter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;        
+    }
+    footer .contenedorFooter section{
+        width: 33%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
