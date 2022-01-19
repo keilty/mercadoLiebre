@@ -40,6 +40,23 @@
     margin: 30px 0;
 }
 
-.register-login .contenedor .containerButtons button {
+.container-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.container-btn .btn-azul {
     color: #fff;
+    width: 100%;
+    background-color: var(--colorAzul);
+}
+
+.register-login .contenedor .containerButtons .btn-verde {
+    color: #fff;
+    background-color: var(--colorVerde);
+}
+
+.register-login .contenedor .containerButtons .btn-rojo {
+    color: #fff;
+    background-color: var(--colorRojo);
 }
